@@ -3,37 +3,37 @@
     abi="x86"
     api-level="28"
     build-mode="FULL"
-    density="420dpi"
+    density="xhdpi"
     format="10"
     plugin-version="3.4.1"
-    timestamp="1558374897000"
+    timestamp="1558376011400"
     token="6433846914742405584"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="300" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="24" />
+        duration="2" />
     <task
         name="verifier"
-        duration="8" />
+        duration="4" />
 
     <artifact
         location="/Users/malachias/Android/Lesson 5/05.3-Entregar/MaterialMe/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/malachias/Android/Lesson 5/05.3-Entregar/MaterialMe/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
         type="SPLIT" />
     <artifact
         location="/Users/malachias/Android/Lesson 5/05.3-Entregar/MaterialMe/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
         type="SPLIT" />
     <artifact
         location="/Users/malachias/Android/Lesson 5/05.3-Entregar/MaterialMe/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/malachias/Android/Lesson 5/05.3-Entregar/MaterialMe/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
         type="SPLIT" />
     <artifact
         location="/Users/malachias/Android/Lesson 5/05.3-Entregar/MaterialMe/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
@@ -44,6 +44,9 @@
     <artifact
         location="/Users/malachias/Android/Lesson 5/05.3-Entregar/MaterialMe/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
         type="SPLIT" />
+    <artifact
+        location="/Users/malachias/Android/Lesson 5/05.3-Entregar/MaterialMe/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+        type="SPLIT_MAIN" />
     <artifact
         location="/Users/malachias/Android/Lesson 5/05.3-Entregar/MaterialMe/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
         type="SPLIT" />
@@ -59,25 +62,22 @@
     <artifact
         location="/Users/malachias/Android/Lesson 5/05.3-Entregar/MaterialMe/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
-    <artifact
-        location="/Users/malachias/Android/Lesson 5/05.3-Entregar/MaterialMe/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1558374897000"
+        timestamp="1558376011400"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/malachias/Android/Lesson 5/05.3-Entregar/MaterialMe/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/malachias/Android/Lesson 5/05.3-Entregar/MaterialMe/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
             location="/Users/malachias/Android/Lesson 5/05.3-Entregar/MaterialMe/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/Users/malachias/Android/Lesson 5/05.3-Entregar/MaterialMe/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/malachias/Android/Lesson 5/05.3-Entregar/MaterialMe/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
             location="/Users/malachias/Android/Lesson 5/05.3-Entregar/MaterialMe/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
@@ -88,6 +88,9 @@
         <artifact
             location="/Users/malachias/Android/Lesson 5/05.3-Entregar/MaterialMe/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
+        <artifact
+            location="/Users/malachias/Android/Lesson 5/05.3-Entregar/MaterialMe/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="/Users/malachias/Android/Lesson 5/05.3-Entregar/MaterialMe/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
@@ -103,9 +106,6 @@
         <artifact
             location="/Users/malachias/Android/Lesson 5/05.3-Entregar/MaterialMe/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
-        <artifact
-            location="/Users/malachias/Android/Lesson 5/05.3-Entregar/MaterialMe/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
